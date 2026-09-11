@@ -1,63 +1,12 @@
-<div align="center">
-<img alt="sahtoutcms_logo" src="https://github.com/user-attachments/assets/2e48672b-3763-4229-bce2-cc0a0f9da15a" />
-<br>
-# SahtoutCMS V2
+# RealmGateCMS
 
-### A modern World of Warcraft website CMS for AzerothCore WotLK 3.3.5
+RealmGateCMS is a World of Warcraft server CMS developed from SahtoutCMS, with initial support for **AzerothCore WotLK 3.3.5** and a planned modular architecture.
 
-<p align="center">
-  <a href="https://github.com/blodyiheb/SahtoutCMS">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" />
-  </a>
-  <a href="https://discord.com/invite/chxXTXXQ6M">
-    <img src="https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
-  <a href="https://www.youtube.com/watch?v=wHZypMui6aQ">
-    <img src="https://img.shields.io/badge/YouTube-Watch%20Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Demo" />
-  </a>
-</p>
+[Repository](https://github.com/Papadocks/RealmGateCMS) · [Issues](https://github.com/Papadocks/RealmGateCMS/issues) · [Modernization roadmap](RealmGateCMS-Modernization-Roadmap.md)
 
-<p align="center">
+The project is undergoing modernization. The functionality and setup below describe the inherited implementation; the Laravel architecture and other roadmap features are planned work, not completed capabilities.
 
-![Version](https://img.shields.io/badge/version-2.x-2ea44f?style=flat-square)
-![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat-square\&logo=php\&logoColor=white)
-![AzerothCore](https://img.shields.io/badge/AzerothCore-WotLK%203.3.5-orange?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
-
-</p>
-
-</div>
-
----
-
-> 🚀 **SahtoutCMS V2 is the current and actively developed version of SahtoutCMS.**
->
-> This is the **`main` branch** and is the recommended version for new installations.
->
-> The original SahtoutCMS V1 is preserved in the [`v1-legacy`](https://github.com/blodyiheb/SahtoutCMS/tree/v1-legacy) branch for users who still need the old version.
-
----
-
-# 📖 About
-
-**SahtoutCMS V2** is a PHP-based website CMS designed for **AzerothCore WotLK 3.3.5 private servers**.
-
-It provides a complete website and administration interface for managing your World of Warcraft server while providing players with a modern, responsive website.
-
-SahtoutCMS V2 is the successor to the original SahtoutCMS V1 and introduces a redesigned interface, improved structure, improved usability, and continued development.
-
-> ⚡ SahtoutCMS is an open-source project created for learning, experimentation, and the AzerothCore community. You are free to use it for your own World of Warcraft server.
-
-<div align="center">
-  <a href="https://blodyiheb.vercel.app/" target="_blank">
-    <img 
-      width="200" 
-      height="auto" 
-      alt="Get Support" 
-      src="https://github.com/user-attachments/assets/80b3619f-cc0b-4502-b8b8-a4d71f52c212" 
-    />
-  </a>
-</div>
+SahtoutCMS is the upstream project created by blodyiheb. Its provenance and original MIT copyright notice are preserved in [NOTICE.md](NOTICE.md) and [LICENSE](LICENSE).
 
 ---
 
@@ -82,7 +31,7 @@ SahtoutCMS V2 is the successor to the original SahtoutCMS V1 and introduces a re
 
 # 🛡️ Administration Panel
 
-SahtoutCMS provides a centralized administration panel for managing your website and server-related content.
+RealmGateCMS provides a centralized administration panel for managing your website and server-related content.
 
 ## 👥 Users
 
@@ -124,7 +73,7 @@ Execute AzerothCore GM commands directly from the administration panel through S
 
 # ⚙️ Administration Settings
 
-SahtoutCMS V2 provides configurable settings for the main components of the website.
+RealmGateCMS provides configurable settings for the main components of the website.
 
 ### General
 
@@ -168,7 +117,7 @@ SahtoutCMS V2 provides configurable settings for the main components of the webs
 
 # 🛒 Shop System
 
-SahtoutCMS includes a dynamic shop system managed directly from the administration panel.
+RealmGateCMS includes a dynamic shop system managed directly from the administration panel.
 
 ## 🧰 Item Shop
 
@@ -211,7 +160,7 @@ Features include:
 
 # ⚔️ Armory
 
-SahtoutCMS includes an Armory system for displaying player and character information.
+RealmGateCMS includes an Armory system for displaying player and character information.
 
 ## 🏆 Top Players
 
@@ -282,7 +231,7 @@ Including:
 
 # 🔐 Security
 
-SahtoutCMS V2 includes several security-focused features, including:
+RealmGateCMS includes several security-focused features, including:
 
 * SRP6 authentication
 * Password reset protection
@@ -299,7 +248,9 @@ SahtoutCMS V2 includes several security-focused features, including:
 
 # 💻 Requirements
 
-## Tested Environment
+## Upstream Reference Environment
+
+The following environment was documented by SahtoutCMS; it has not been independently revalidated for this fork.
 
 | Component | Version     |
 | --------- | ----------- |
@@ -313,7 +264,7 @@ SahtoutCMS V2 includes several security-focused features, including:
  npm
 ### Other Platforms
 
-SahtoutCMS V2 should also work on Linux-based Apache environments.
+RealmGateCMS should also work on Linux-based Apache environments.
 
 XAMPP is **not required** and is mainly recommended for easy local development and testing.
 
@@ -345,29 +296,29 @@ php -m
 
 # 🎮 Game Server Requirements
 
-SahtoutCMS V2 is designed for:
+RealmGateCMS is designed for:
 
 * **AzerothCore**
 * **World of Warcraft WotLK 3.3.5**
 * **SOAP enabled**
 
-Your AzerothCore server and databases should already be installed and working before configuring SahtoutCMS.
+Your AzerothCore server and databases should already be installed and working before configuring RealmGateCMS.
 
 ---
 
 # 🚀 Installation
 
-## 1. Download SahtoutCMS V2
+## 1. Download RealmGateCMS
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/blodyiheb/SahtoutCMS.git
+git clone https://github.com/Papadocks/RealmGateCMS.git
 ```
 
 Or download the repository as a ZIP from GitHub.
 
-> **Important:** The `main` branch contains the current SahtoutCMS V2 release.
+> The `main` branch contains ongoing RealmGateCMS development. Consult the roadmap for planned changes.
 # 📦 Dependencies
 
 ```bash
@@ -379,7 +330,7 @@ npm run build
 
 # 🪟 2. Windows / XAMPP Installation
 
-Extract SahtoutCMS into:
+Extract RealmGateCMS into:
 
 ```text
 C:\xampp\htdocs\
@@ -402,7 +353,7 @@ C:\xampp\htdocs\
 ### ❌ Incorrect
 
 ```text
-C:\xampp\htdocs\sahtout\sahtout\
+C:\xampp\htdocs\RealmGateCMS\RealmGateCMS\
 ```
 
 Make sure the project is not unnecessarily nested inside another directory.
@@ -420,7 +371,7 @@ from the XAMPP Control Panel.
 
 # 🐧 3. Linux / Apache Installation
 
-Extract SahtoutCMS into your Apache document root.
+Extract RealmGateCMS into your Apache document root.
 
 A common location is:
 
@@ -440,7 +391,7 @@ For example:
 └── ...
 ```
 
-If your Apache configuration uses another document root, place SahtoutCMS inside that directory.
+If your Apache configuration uses another document root, place RealmGateCMS inside that directory.
 
 Make sure Apache has permission to read and execute the required project files.
 
@@ -450,11 +401,11 @@ Make sure Apache has permission to read and execute the required project files.
 
 Before running the installer, make sure your **AzerothCore databases are already installed and working**.
 
-SahtoutCMS uses its own website database and connects to the AzerothCore databases.
+RealmGateCMS uses its own website database and connects to the AzerothCore databases.
 
 ## Website Database
 
-Import sahtout_site SQL file.
+Import the supplied `sahtout_site` SQL file. This inherited database name and the SQL filenames below are retained for compatibility; they are not the product name.
 
 ## AzerothCore Databases
 
@@ -531,13 +482,13 @@ This helps prevent unauthorized access to the installation system.
 ## 2. Configure Your Administrator Account
 
 After installation,Change the Account's Role to admin in sahtout_site ,user_currencies table
-log into the **SahtoutCMS Admin Panel** and complete the remaining configuration.
+log into the **RealmGateCMS Admin Panel** and complete the remaining configuration.
 
 ---
 
 # 🛠️ Development
 
-SahtoutCMS V2 is the **current and actively developed version** of the project.
+RealmGateCMS development follows the [modernization roadmap](RealmGateCMS-Modernization-Roadmap.md).
 
 Development is focused on:
 
@@ -558,32 +509,22 @@ The project will continue to evolve based on community feedback and development 
 
 # 📌 Project Status
 
-**SahtoutCMS V2 is the current version.**
+RealmGateCMS is an independent fork in modernization. SahtoutCMS V1/V2 are upstream version names, not RealmGateCMS release names. Existing package version fields are inherited metadata and do not certify completion of the planned RealmGateCMS v1.0.
 
-The `main` branch is the primary development branch and is recommended for **new installations**.
+The `main` branch is the development branch. See the [roadmap](RealmGateCMS-Modernization-Roadmap.md) for the intended product direction and rebranding checklist.
 
-The original V1 has been preserved separately:
-
-```text
-main
-└── SahtoutCMS V2
-    Current / actively developed
-
-v1-legacy
-└── SahtoutCMS V1
-    Original / legacy version
-```
 ---
+
 # 🐛 Bug Reports
 
-If you find a bug, please open a **GitHub Issue**.
+If you find a bug, please open a [GitHub issue](https://github.com/Papadocks/RealmGateCMS/issues).
 
 When reporting an issue, provide as much information as possible:
 
 * What happened
 * What you expected to happen
 * Steps to reproduce the issue
-* SahtoutCMS version
+* RealmGateCMS version
 * PHP version
 * Apache version
 * Database version
@@ -612,49 +553,22 @@ Please keep changes focused and provide a clear description of what your Pull Re
 
 ---
 
-# 🌟 Support SahtoutCMS
+# 🌟 Support RealmGateCMS
 
-If SahtoutCMS is useful to you or your World of Warcraft server, there are several ways you can support the project.
+Support the project by starring the [repository](https://github.com/Papadocks/RealmGateCMS), reporting issues, improving documentation or contributing focused pull requests.
 
-### ⭐ Star the Repository
-
-Give the project a ⭐ **Star** on GitHub.
-
-Stars help other AzerothCore developers and server owners discover SahtoutCMS.
-
-### 💬 Join the Community
-
-Join the SahtoutCMS Discord community to:
-
-* Ask questions
-* Report problems
-* Share feedback
-* Discuss features
-* Connect with other users
-
-### ❤️ Support Development
-
-If you want to financially support the continued development of SahtoutCMS, consider using the available donation or sponsorship options.
-
-Your support can help with:
-
-* Development time
-* Infrastructure
-* Testing
-* New features
-* Long-term maintenance
-
-> 💙 SahtoutCMS will remain open source. Donations are optional and help support continued development.
 ---
 
 # 📜 License
 
-SahtoutCMS is released under the **MIT License**.
+RealmGateCMS is released under the **MIT License**.
 
-See the [LICENSE](LICENSE) file for more information.
+See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md) for the original copyright notice and upstream attribution.
 
 ---
-# 📸 Screenshots
+# 📸 Upstream Screenshots
+
+These screenshots were inherited from SahtoutCMS and show the upstream interface and branding. They are historical references, not verified screenshots of the RealmGateCMS rebrand. Replacement screenshots are tracked in the roadmap.
 <img width="1886" height="900" alt="1" src="https://github.com/user-attachments/assets/f914ed6e-d48c-463a-b528-7bd5e2622357" />
 <div align="center">
 <img width="789" height="906" alt="2" src="https://github.com/user-attachments/assets/f3f11526-a620-4527-9809-4fdb3d307da4" />
@@ -688,23 +602,14 @@ See the [LICENSE](LICENSE) file for more information.
 
 # 🔗 Links
 
-| Resource        | Link                                                   |
-| --------------- | ------------------------------------------------------ |
-| Current Version | https://github.com/blodyiheb/SahtoutCMS/tree/main      |
-| Legacy V1       | https://github.com/blodyiheb/SahtoutCMS/tree/v1-legacy |
-| Discord         | https://discord.com/invite/chxXTXXQ6M                  |
-| YouTube Demo    | https://www.youtube.com/watch?v=wHZypMui6aQ            |
+| Resource | Link |
+| --- | --- |
+| RealmGateCMS repository | [Papadocks/RealmGateCMS](https://github.com/Papadocks/RealmGateCMS) |
+| RealmGateCMS issues | [Issue tracker](https://github.com/Papadocks/RealmGateCMS/issues) |
+| Product roadmap | [Modernization roadmap](RealmGateCMS-Modernization-Roadmap.md) |
+| Upstream project | [SahtoutCMS by blodyiheb](https://github.com/blodyiheb/SahtoutCMS) |
+| Upstream legacy version | [SahtoutCMS V1](https://github.com/blodyiheb/SahtoutCMS/tree/v1-legacy) |
 
 ---
 
-<div align="center">
-
-Made with ❤️ by **Blodyiheb**
-
-### 🚀 SahtoutCMS V2
-
-**The current and actively developed version of SahtoutCMS.**
-
-⭐ If you find it useful, consider giving the repository a star!
-
-</div>
+RealmGateCMS is derived from SahtoutCMS, originally created by **blodyiheb**. See [NOTICE.md](NOTICE.md) for attribution.

@@ -1,4 +1,8 @@
 {
+    "name": "realmgatecms/realmgatecms",
+    "description": "RealmGateCMS is a World of Warcraft server CMS derived from SahtoutCMS, with initial support for AzerothCore.",
+    "type": "project",
+    "license": "MIT",
     "require": {
         "phpmailer/phpmailer": "^6.10"
     }

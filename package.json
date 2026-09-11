@@ -1,7 +1,7 @@
 {
-  "name": "sahtoutcms",
+  "name": "realmgatecms",
   "version": "1.0.0",
-  "description": "<div align=\"center\">\r   <img width=\"612\" height=\"408\" alt=\"logo\" src=\"https://github.com/user-attachments/assets/54293d96-03eb-4dda-9f22-e1c013d6053b\" />\r </div>\r #SahtoutCMS",
+  "description": "RealmGateCMS is a World of Warcraft server CMS derived from SahtoutCMS, with initial support for AzerothCore.",
   "main": "index.js",
   "scripts": {
     "dev": "tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --watch",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blodyiheb/SahtoutCMS.git"
+    "url": "git+https://github.com/Papadocks/RealmGateCMS.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/blodyiheb/SahtoutCMS/issues"
+    "url": "https://github.com/Papadocks/RealmGateCMS/issues"
   },
-  "homepage": "https://github.com/blodyiheb/SahtoutCMS#readme",
+  "homepage": "https://github.com/Papadocks/RealmGateCMS#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.3.1",
     "@tailwindcss/cli": "^4.3.3",
